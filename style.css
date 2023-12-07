@@ -1,0 +1,29 @@
+/* Start Variables */
+/* End Variables */
+
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+/* End Global Rules */
+
+.parent {
+    background-color: rgb(194, 170, 170);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 50px;
+    background-color: rgb(151, 146, 163);
+}
+h1 {
+    color: rgb(110, 118, 129);
+    font-size: 30px;
+}
+
