@@ -79,11 +79,6 @@ body {
         margin-top: -20px;
     }
 }
-.hover-effect {
-    padding: 10px;
-    background-color: #eee;
-    border-radius: 0.5rem;
-}
 /*=============== END COMPONENTS ===============*/
 
 /*=============== END GLOBAL RULES ===============*/
@@ -105,6 +100,9 @@ body {
     z-index: 1;
 }
 .header .links:hover ul {
+    display: block;
+}
+.header .links:focus ul {
     display: block;
 }
 .header .links .icon {
@@ -204,11 +202,6 @@ body {
 .features .feat {
     padding: 20px;
     text-align: center;
-}
-.features .feat:hover {
-    padding: 10px;
-    background-color: #eee;
-    border-radius: 0.5rem;
 }
 .features .feat i {
     color: var(--main-color);
