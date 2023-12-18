@@ -102,7 +102,7 @@ body {
 .header .links:hover ul {
     display: block;
 }
-.header .links:focus ul {
+.header .links:active ul {
     display: block;
 }
 .header .links .icon {
